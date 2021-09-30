@@ -6,4 +6,5 @@ from dotenv import load_dotenv
 
 load_dotenv()
 test = os.getenv("TEST")
-print(test)
+
+reddit = praw.Reddit(client_id="", client_secret="", password="", user_agent="", username="")
